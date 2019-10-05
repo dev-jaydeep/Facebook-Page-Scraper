@@ -8,7 +8,6 @@
  * @return array
  */
 function fbPageScraper( $page_name = '' )  {
-    $page_name = 'facebook';
     $post_url = "https://www.facebook.com/pg/{$page_name}/posts";
     
     $ch = curl_init($post_url);
